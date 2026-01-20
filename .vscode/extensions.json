@@ -1,9 +1,10 @@
 {
   "recommendations": [
-    "Vue.volar",
     "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig",
-    "oxc.oxc-vscode",
-    "prettier.prettier-vscode"
+    "nuxtr.nuxtr-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "Vue.volar",
+    "dozerg.tsimportsorter",
   ]
 }
