@@ -24,23 +24,8 @@
 	--color-secondary-emphasis-alt: var(--color-secondary-700);
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 :root {
 	interpolate-size: allow-keywords;
-}
-
-@layer base {
-	html {
-		color: #333333;
-	}
-}
-
-/* override primevue */
-[data-pc-section='columntitle'],
-[data-pc-name='bodycell'] {
-	white-space: nowrap;
-}
-[data-p-sortable-column='true'][data-p-sorted='true'] {
-	background-color: var(--p-primary-color);
 }
